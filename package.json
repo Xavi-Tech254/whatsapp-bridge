@@ -1,0 +1,17 @@
+{
+  "name": "devclin-whatsapp-bridge",
+  "version": "1.0.0",
+  "description": "WhatsApp bridge for Dev Clin Studies bot",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "@whiskeysockets/baileys": "^6.7.9",
+    "axios": "^1.6.0",
+    "pino": "^8.17.0",
+    "qrcode-terminal": "^0.12.0",
+    "dotenv": "^16.3.1"
+  }
+}
