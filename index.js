@@ -99,6 +99,15 @@ async function sendFile(jid, filePath, caption = '') {
 async function processReply(jid, reply) {
   if (!reply) return;
 
+  // Check if reply contains a BANNER
+  const bannerMatch = reply.match(/BANNER:(.+?)(\n|$)/);
+  if (bannerMatch) {
+    const bannerPath = bannerMatch[1].trim();
+    const caption = reply.replace(/BANNER:.+?(\n|$)/, '').trim();
+    await sendFile(jid, bannerPath, caption);
+    return;
+  }
+
   // Check if reply contains a file path
   const fileMatch = reply.match(/📎 FILE:(.+?)(\n|$)/);
   if (fileMatch) {
