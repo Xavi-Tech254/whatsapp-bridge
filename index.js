@@ -83,12 +83,19 @@ async function sendFile(jid, filePath, caption = '') {
       const response = await axios.get(fileUrl, { responseType: 'arraybuffer' });
       const buffer = Buffer.from(response.data);
 
-      await sock.sendMessage(jid, {
-        document: buffer,
-        mimetype: mimeType,
-        fileName: fileName,
-        caption: caption
-      });
+      if (mimeType.startsWith('image/')) {
+  await sock.sendMessage(jid, {
+    image: buffer,
+    caption: caption
+  });
+} else {
+  await sock.sendMessage(jid, {
+    document: buffer,
+    mimetype: mimeType,
+    fileName: fileName,
+    caption: caption
+  });
+        }
     }
   } catch (err) {
     console.error('❌ File send error:', err.message);
