@@ -117,7 +117,6 @@ async function connectToWhatsApp() {
   sock = makeWASocket({
     version,
     logger,
-    browser: ['MyBot', 'Chrome', '120.0.0'],
     auth: {
       creds: state.creds,
       keys: makeCacheableSignalKeyStore(state.keys, logger),
@@ -200,7 +199,6 @@ async function connectToWhatsApp() {
       console.log(`📩 From ${from}: ${text.substring(0, 60)}${text.length > 60 ? '...' : ''}`);
 
       // Get reply from Flask
-      await new Promise(r => setTimeout(r, 1000 + Math.random() * 1500));
       const reply = await sendToFlask(from, text);
 
       if (reply) {
