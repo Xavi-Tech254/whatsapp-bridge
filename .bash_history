@@ -83,3 +83,19 @@ cp ~/storage/downloads/utility-index.js src/commands/utility/index.js
 git add src/commands/utility/index.js
 git commit -m "feat: complete menu with all 13 categories"
 git push origin main --force
+cd ~
+ls
+cd ~/storage/downloads
+ls
+cp alegoconnect_fixed.zip ~
+cd ~
+unzip alegoconnect_fixed.zip
+cd alegoconnect_fixed
+git init
+git add .
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/helalink-site/alegoconnect.git
+git push -u origin main
+git remote set-url origin https://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@github.com/helalink-site/alegoconnect.git
+git push -u origin main
