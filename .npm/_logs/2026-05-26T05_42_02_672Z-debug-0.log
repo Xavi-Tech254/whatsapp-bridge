@@ -1,0 +1,1029 @@
+0 verbose cli /data/data/com.termux/files/usr/bin/node /data/data/com.termux/files/usr/bin/npm
+1 info using npm@11.15.0
+2 info using node@v26.1.0
+3 silly config load:file:/data/data/com.termux/files/usr/lib/node_modules/npm/npmrc
+4 silly config load:file:/data/data/com.termux/files/home/xavibot/.npmrc
+5 silly config load:file:/data/data/com.termux/files/home/.npmrc
+6 silly config load:file:/data/data/com.termux/files/usr/etc/npmrc
+7 verbose title npm install @whiskeysockets/baileys@6.5.0
+8 verbose argv "install" "@whiskeysockets/baileys@6.5.0"
+9 verbose logfile logs-max:10 dir:/data/data/com.termux/files/home/.npm/_logs/2026-05-26T05_42_02_672Z-
+10 verbose logfile /data/data/com.termux/files/home/.npm/_logs/2026-05-26T05_42_02_672Z-debug-0.log
+11 silly logfile done cleaning log files
+12 silly packumentCache heap:1071644672 maxSize:267911168 maxEntrySize:133955584
+13 silly idealTree buildDeps
+14 silly fetch manifest @whiskeysockets/baileys@6.5.0
+15 silly packumentCache full:https://registry.npmjs.org/@whiskeysockets%2fbaileys cache-miss
+16 http fetch GET 200 https://registry.npmjs.org/@whiskeysockets%2fbaileys 2535ms (cache revalidated)
+17 silly packumentCache full:https://registry.npmjs.org/@whiskeysockets%2fbaileys set size:194192 disposed:false
+18 silly fetch manifest jimp@^0.16.1
+19 silly packumentCache full:https://registry.npmjs.org/jimp cache-miss
+20 http fetch GET 200 https://registry.npmjs.org/jimp 553ms (cache revalidated)
+21 silly packumentCache full:https://registry.npmjs.org/jimp set size:1198045 disposed:false
+22 silly fetch manifest link-preview-js@^3.0.0
+23 silly packumentCache full:https://registry.npmjs.org/link-preview-js cache-miss
+24 http fetch GET 200 https://registry.npmjs.org/link-preview-js 517ms (cache revalidated)
+25 silly packumentCache full:https://registry.npmjs.org/link-preview-js set size:150486 disposed:false
+26 silly fetch manifest qrcode-terminal@^0.12.0
+27 silly packumentCache full:https://registry.npmjs.org/qrcode-terminal cache-miss
+28 http fetch GET 200 https://registry.npmjs.org/qrcode-terminal 167ms (cache revalidated)
+29 silly packumentCache full:https://registry.npmjs.org/qrcode-terminal set size:29799 disposed:false
+30 silly fetch manifest sharp@^0.30.5
+31 silly packumentCache full:https://registry.npmjs.org/sharp cache-miss
+32 http fetch GET 200 https://registry.npmjs.org/sharp 182ms (cache revalidated)
+33 silly packumentCache full:https://registry.npmjs.org/sharp set size:1072564 disposed:false
+34 silly placeDep ROOT @whiskeysockets/baileys@6.5.0 REPLACE for: xavi-clinton-bot@1.5.0 want: 6.5.0
+35 silly fetch manifest pino@^7.0.0
+36 silly packumentCache full:https://registry.npmjs.org/pino cache-miss
+37 silly fetch manifest uuid@^9.0.0
+38 silly packumentCache full:https://registry.npmjs.org/uuid cache-miss
+39 silly fetch manifest libsignal@github:adiwajshing/libsignal-node
+40 silly fetch manifest node-cache@^5.1.2
+41 silly packumentCache full:https://registry.npmjs.org/node-cache cache-miss
+42 silly fetch manifest protobufjs@^6.11.3
+43 silly packumentCache full:https://registry.npmjs.org/protobufjs cache-miss
+44 silly fetch manifest futoin-hkdf@^1.5.1
+45 silly packumentCache full:https://registry.npmjs.org/futoin-hkdf cache-miss
+46 silly fetch manifest audio-decode@^2.1.3
+47 silly packumentCache full:https://registry.npmjs.org/audio-decode cache-miss
+48 http fetch GET 200 https://registry.npmjs.org/pino 584ms (cache revalidated)
+49 silly packumentCache full:https://registry.npmjs.org/pino set size:1274379 disposed:false
+50 silly fetch manifest cache-manager@^5.2.2
+51 silly packumentCache full:https://registry.npmjs.org/cache-manager cache-miss
+52 http fetch GET 200 https://registry.npmjs.org/uuid 766ms (cache revalidated)
+53 silly packumentCache full:https://registry.npmjs.org/uuid set size:234700 disposed:false
+54 silly fetch manifest music-metadata@^7.12.3
+55 silly packumentCache full:https://registry.npmjs.org/music-metadata cache-miss
+56 http fetch GET 200 https://registry.npmjs.org/protobufjs 805ms (cache revalidated)
+57 silly packumentCache full:https://registry.npmjs.org/protobufjs set size:684892 disposed:false
+58 silly fetch manifest libphonenumber-js@^1.10.20
+59 silly packumentCache full:https://registry.npmjs.org/libphonenumber-js cache-miss
+60 http fetch GET 200 https://registry.npmjs.org/audio-decode 1026ms (cache revalidated)
+61 silly packumentCache full:https://registry.npmjs.org/audio-decode set size:120660 disposed:false
+62 silly fetch manifest @adiwajshing/keyed-db@^0.2.4
+63 silly packumentCache full:https://registry.npmjs.org/@adiwajshing%2fkeyed-db cache-miss
+64 http fetch GET 200 https://registry.npmjs.org/futoin-hkdf 1068ms (cache revalidated)
+65 silly packumentCache full:https://registry.npmjs.org/futoin-hkdf set size:61772 disposed:false
+66 http fetch GET 200 https://registry.npmjs.org/node-cache 1095ms (cache revalidated)
+67 silly packumentCache full:https://registry.npmjs.org/node-cache set size:113081 disposed:false
+68 http fetch GET 200 https://registry.npmjs.org/cache-manager 816ms (cache revalidated)
+69 silly packumentCache full:https://registry.npmjs.org/cache-manager set size:325685 disposed:false
+70 http fetch GET 200 https://registry.npmjs.org/music-metadata 779ms (cache revalidated)
+71 silly packumentCache full:https://registry.npmjs.org/music-metadata set size:1277084 disposed:false
+72 http fetch GET 200 https://registry.npmjs.org/libphonenumber-js 1175ms (cache updated)
+73 silly packumentCache full:https://registry.npmjs.org/libphonenumber-js set size:undefined disposed:false
+74 http fetch GET 200 https://registry.npmjs.org/@adiwajshing%2fkeyed-db 1195ms (cache revalidated)
+75 silly packumentCache full:https://registry.npmjs.org/@adiwajshing%2fkeyed-db set size:39732 disposed:false
+76 silly placeDep ROOT @adiwajshing/keyed-db@0.2.4 OK for: @whiskeysockets/baileys@6.5.0 want: ^0.2.4
+77 silly placeDep ROOT audio-decode@2.2.3 OK for: @whiskeysockets/baileys@6.5.0 want: ^2.1.3
+78 silly placeDep ROOT cache-manager@5.7.6 OK for: @whiskeysockets/baileys@6.5.0 want: ^5.2.2
+79 silly placeDep ROOT futoin-hkdf@1.5.3 OK for: @whiskeysockets/baileys@6.5.0 want: ^1.5.1
+80 silly placeDep ROOT libphonenumber-js@1.13.3 OK for: @whiskeysockets/baileys@6.5.0 want: ^1.10.20
+81 silly placeDep ROOT libsignal@2.0.1 OK for: @whiskeysockets/baileys@6.5.0 want: github:adiwajshing/libsignal-node
+82 silly placeDep ROOT music-metadata@7.14.0 OK for: @whiskeysockets/baileys@6.5.0 want: ^7.12.3
+83 silly placeDep ROOT node-cache@5.1.2 OK for: @whiskeysockets/baileys@6.5.0 want: ^5.1.2
+84 silly placeDep node_modules/@whiskeysockets/baileys pino@7.11.0 OK for: @whiskeysockets/baileys@6.5.0 want: ^7.0.0
+85 silly placeDep ROOT protobufjs@6.11.6 OK for: @whiskeysockets/baileys@6.5.0 want: ^6.11.3
+86 silly placeDep ROOT uuid@9.0.1 OK for: @whiskeysockets/baileys@6.5.0 want: ^9.0.0
+87 silly fetch manifest node-wav@^0.0.2
+88 silly packumentCache full:https://registry.npmjs.org/node-wav cache-miss
+89 silly fetch manifest audio-type@^2.2.1
+90 silly packumentCache full:https://registry.npmjs.org/audio-type cache-miss
+91 silly fetch manifest qoa-format@^1.0.1
+92 silly packumentCache full:https://registry.npmjs.org/qoa-format cache-miss
+93 silly fetch manifest audio-buffer@^5.0.0
+94 silly packumentCache full:https://registry.npmjs.org/audio-buffer cache-miss
+95 silly fetch manifest mpg123-decoder@^1.0.0
+96 silly packumentCache full:https://registry.npmjs.org/mpg123-decoder cache-miss
+97 silly fetch manifest ogg-opus-decoder@^1.6.12
+98 silly packumentCache full:https://registry.npmjs.org/ogg-opus-decoder cache-miss
+99 silly fetch manifest @wasm-audio-decoders/flac@^0.2.4
+100 silly packumentCache full:https://registry.npmjs.org/@wasm-audio-decoders%2fflac cache-miss
+101 http fetch GET 200 https://registry.npmjs.org/audio-type 516ms (cache revalidated)
+102 silly packumentCache full:https://registry.npmjs.org/audio-type set size:32162 disposed:false
+103 silly fetch manifest @wasm-audio-decoders/ogg-vorbis@^0.1.15
+104 silly packumentCache full:https://registry.npmjs.org/@wasm-audio-decoders%2fogg-vorbis cache-miss
+105 http fetch GET 200 https://registry.npmjs.org/node-wav 539ms (cache revalidated)
+106 silly packumentCache full:https://registry.npmjs.org/node-wav set size:4749 disposed:false
+107 silly fetch manifest lru-cache@^10.2.2
+108 silly packumentCache full:https://registry.npmjs.org/lru-cache cache-miss
+109 http fetch GET 200 https://registry.npmjs.org/ogg-opus-decoder 592ms (cache revalidated)
+110 silly packumentCache full:https://registry.npmjs.org/ogg-opus-decoder set size:146184 disposed:false
+111 silly fetch manifest eventemitter3@^5.0.1
+112 silly packumentCache full:https://registry.npmjs.org/eventemitter3 cache-miss
+113 http fetch GET 200 https://registry.npmjs.org/audio-buffer 627ms (cache revalidated)
+114 silly packumentCache full:https://registry.npmjs.org/audio-buffer set size:94467 disposed:false
+115 silly fetch manifest lodash.clonedeep@^4.5.0
+116 silly packumentCache full:https://registry.npmjs.org/lodash.clonedeep cache-miss
+117 http fetch GET 200 https://registry.npmjs.org/mpg123-decoder 648ms (cache revalidated)
+118 silly packumentCache full:https://registry.npmjs.org/mpg123-decoder set size:112888 disposed:false
+119 silly fetch manifest promise-coalesce@^1.1.2
+120 silly packumentCache full:https://registry.npmjs.org/promise-coalesce cache-miss
+121 http fetch GET 200 https://registry.npmjs.org/qoa-format 688ms (cache revalidated)
+122 silly packumentCache full:https://registry.npmjs.org/qoa-format set size:10092 disposed:false
+123 silly fetch manifest curve25519-js@^0.0.4
+124 silly packumentCache full:https://registry.npmjs.org/curve25519-js cache-miss
+125 http fetch GET 200 https://registry.npmjs.org/lru-cache 357ms (cache revalidated)
+126 silly packumentCache full:https://registry.npmjs.org/lru-cache set size:451987 disposed:false
+127 silly fetch manifest protobufjs@6.8.8
+128 silly packumentCache full:https://registry.npmjs.org/protobufjs cache-hit
+129 silly fetch manifest debug@^4.3.4
+130 silly packumentCache full:https://registry.npmjs.org/debug cache-miss
+131 http fetch GET 200 https://registry.npmjs.org/lodash.clonedeep 329ms (cache revalidated)
+132 silly packumentCache full:https://registry.npmjs.org/lodash.clonedeep set size:48192 disposed:false
+133 silly fetch manifest strtok3@^6.3.0
+134 silly packumentCache full:https://registry.npmjs.org/strtok3 cache-miss
+135 http fetch GET 200 https://registry.npmjs.org/eventemitter3 417ms (cache miss)
+136 silly packumentCache full:https://registry.npmjs.org/eventemitter3 set size:undefined disposed:false
+137 silly fetch manifest file-type@^16.5.4
+138 silly packumentCache full:https://registry.npmjs.org/file-type cache-miss
+139 http fetch GET 200 https://registry.npmjs.org/promise-coalesce 494ms (cache miss)
+140 silly packumentCache full:https://registry.npmjs.org/promise-coalesce set size:undefined disposed:false
+141 silly fetch manifest media-typer@^1.1.0
+142 silly packumentCache full:https://registry.npmjs.org/media-typer cache-miss
+143 http fetch GET 200 https://registry.npmjs.org/debug 221ms (cache revalidated)
+144 silly packumentCache full:https://registry.npmjs.org/debug set size:195840 disposed:false
+145 silly fetch manifest token-types@^4.2.1
+146 silly packumentCache full:https://registry.npmjs.org/token-types cache-miss
+147 http fetch GET 200 https://registry.npmjs.org/curve25519-js 570ms (cache revalidated)
+148 silly packumentCache full:https://registry.npmjs.org/curve25519-js set size:15295 disposed:false
+149 silly fetch manifest @tokenizer/token@^0.3.0
+150 silly packumentCache full:https://registry.npmjs.org/@tokenizer%2ftoken cache-miss
+151 http fetch GET 200 https://registry.npmjs.org/file-type 217ms (cache revalidated)
+152 silly packumentCache full:https://registry.npmjs.org/file-type set size:558008 disposed:false
+153 silly fetch manifest clone@2.x
+154 silly packumentCache full:https://registry.npmjs.org/clone cache-miss
+155 http fetch GET 200 https://registry.npmjs.org/strtok3 364ms (cache revalidated)
+156 silly packumentCache full:https://registry.npmjs.org/strtok3 set size:412240 disposed:false
+157 silly fetch manifest sonic-boom@^2.2.1
+158 silly packumentCache full:https://registry.npmjs.org/sonic-boom cache-miss
+159 http fetch GET 200 https://registry.npmjs.org/@wasm-audio-decoders%2fflac 1457ms (cache revalidated)
+160 silly packumentCache full:https://registry.npmjs.org/@wasm-audio-decoders%2fflac set size:78704 disposed:false
+161 silly fetch manifest real-require@^0.1.0
+162 silly packumentCache full:https://registry.npmjs.org/real-require cache-miss
+163 http fetch GET 200 https://registry.npmjs.org/media-typer 312ms (cache revalidated)
+164 silly packumentCache full:https://registry.npmjs.org/media-typer set size:20873 disposed:false
+165 silly fetch manifest thread-stream@^0.15.1
+166 silly packumentCache full:https://registry.npmjs.org/thread-stream cache-miss
+167 http fetch GET 200 https://registry.npmjs.org/token-types 338ms (cache revalidated)
+168 silly packumentCache full:https://registry.npmjs.org/token-types set size:155133 disposed:false
+169 silly fetch manifest process-warning@^1.0.0
+170 silly packumentCache full:https://registry.npmjs.org/process-warning cache-miss
+171 http fetch GET 200 https://registry.npmjs.org/sonic-boom 238ms (cache revalidated)
+172 silly packumentCache full:https://registry.npmjs.org/sonic-boom set size:170649 disposed:false
+173 silly fetch manifest on-exit-leak-free@^0.2.0
+174 silly packumentCache full:https://registry.npmjs.org/on-exit-leak-free cache-miss
+175 http fetch GET 200 https://registry.npmjs.org/@wasm-audio-decoders%2fogg-vorbis 1171ms (cache revalidated)
+176 silly packumentCache full:https://registry.npmjs.org/@wasm-audio-decoders%2fogg-vorbis set size:63949 disposed:false
+177 silly fetch manifest pino-std-serializers@^4.0.0
+178 silly packumentCache full:https://registry.npmjs.org/pino-std-serializers cache-miss
+179 http fetch GET 200 https://registry.npmjs.org/real-require 268ms (cache revalidated)
+180 silly packumentCache full:https://registry.npmjs.org/real-require set size:10884 disposed:false
+181 silly fetch manifest pino-abstract-transport@v0.5.0
+182 silly packumentCache full:https://registry.npmjs.org/pino-abstract-transport cache-miss
+183 http fetch GET 200 https://registry.npmjs.org/clone 413ms (cache revalidated)
+184 silly packumentCache full:https://registry.npmjs.org/clone set size:82973 disposed:false
+185 silly fetch manifest long@^4.0.0
+186 silly packumentCache full:https://registry.npmjs.org/long cache-miss
+187 http fetch GET 200 https://registry.npmjs.org/@tokenizer%2ftoken 505ms (cache revalidated)
+188 silly packumentCache full:https://registry.npmjs.org/@tokenizer%2ftoken set size:11833 disposed:false
+189 silly fetch manifest @types/long@^4.0.1
+190 silly packumentCache full:https://registry.npmjs.org/@types%2flong cache-miss
+191 http fetch GET 200 https://registry.npmjs.org/@types%2flong 197ms (cache revalidated)
+192 silly packumentCache full:https://registry.npmjs.org/@types%2flong set size:28711 disposed:false
+193 silly fetch manifest @types/node@>=13.7.0
+194 silly packumentCache full:https://registry.npmjs.org/@types%2fnode cache-miss
+195 http fetch GET 200 https://registry.npmjs.org/long 227ms (cache revalidated)
+196 silly packumentCache full:https://registry.npmjs.org/long set size:80704 disposed:false
+197 silly fetch manifest @protobufjs/path@^1.1.2
+198 silly packumentCache full:https://registry.npmjs.org/@protobufjs%2fpath cache-miss
+199 http fetch GET 200 https://registry.npmjs.org/thread-stream 561ms (cache revalidated)
+200 silly packumentCache full:https://registry.npmjs.org/thread-stream set size:132366 disposed:false
+201 silly fetch manifest @protobufjs/pool@^1.1.0
+202 silly packumentCache full:https://registry.npmjs.org/@protobufjs%2fpool cache-miss
+203 http fetch GET 200 https://registry.npmjs.org/process-warning 485ms (cache revalidated)
+204 silly packumentCache full:https://registry.npmjs.org/process-warning set size:32480 disposed:false
+205 silly fetch manifest @protobufjs/utf8@^1.1.0
+206 silly packumentCache full:https://registry.npmjs.org/@protobufjs%2futf8 cache-miss
+207 http fetch GET 200 https://registry.npmjs.org/@types%2fnode 341ms (cache revalidated)
+208 silly packumentCache full:https://registry.npmjs.org/@types%2fnode set size:11015753 disposed:false
+209 silly fetch manifest @protobufjs/fetch@^1.1.0
+210 silly packumentCache full:https://registry.npmjs.org/@protobufjs%2ffetch cache-miss
+211 http fetch GET 200 https://registry.npmjs.org/pino-abstract-transport 1569ms (cache revalidated)
+212 silly packumentCache full:https://registry.npmjs.org/pino-abstract-transport set size:28687 disposed:false
+213 silly fetch manifest @protobufjs/float@^1.0.2
+214 silly packumentCache full:https://registry.npmjs.org/@protobufjs%2ffloat cache-miss
+215 http fetch GET 200 https://registry.npmjs.org/on-exit-leak-free 1661ms (cache revalidated)
+216 silly packumentCache full:https://registry.npmjs.org/on-exit-leak-free set size:18719 disposed:false
+217 silly fetch manifest @protobufjs/base64@^1.1.2
+218 silly packumentCache full:https://registry.npmjs.org/@protobufjs%2fbase64 cache-miss
+219 http fetch GET 200 https://registry.npmjs.org/pino-std-serializers 1645ms (cache revalidated)
+220 silly packumentCache full:https://registry.npmjs.org/pino-std-serializers set size:96176 disposed:false
+221 silly fetch manifest @protobufjs/codegen@^2.0.4
+222 silly packumentCache full:https://registry.npmjs.org/@protobufjs%2fcodegen cache-miss
+223 http fetch GET 200 https://registry.npmjs.org/@protobufjs%2futf8 1303ms (cache revalidated)
+224 silly packumentCache full:https://registry.npmjs.org/@protobufjs%2futf8 set size:15634 disposed:false
+225 silly fetch manifest @protobufjs/inquire@^1.1.0
+226 silly packumentCache full:https://registry.npmjs.org/@protobufjs%2finquire cache-miss
+227 http fetch GET 200 https://registry.npmjs.org/@protobufjs%2fpath 1377ms (cache revalidated)
+228 silly packumentCache full:https://registry.npmjs.org/@protobufjs%2fpath set size:10241 disposed:false
+229 silly fetch manifest @protobufjs/aspromise@^1.1.2
+230 silly packumentCache full:https://registry.npmjs.org/@protobufjs%2faspromise cache-miss
+231 http fetch GET 200 https://registry.npmjs.org/@protobufjs%2fpool 1340ms (cache revalidated)
+232 silly packumentCache full:https://registry.npmjs.org/@protobufjs%2fpool set size:10727 disposed:false
+233 silly fetch manifest @protobufjs/eventemitter@^1.1.0
+234 silly packumentCache full:https://registry.npmjs.org/@protobufjs%2feventemitter cache-miss
+235 http fetch GET 200 https://registry.npmjs.org/@protobufjs%2fcodegen 613ms (cache revalidated)
+236 silly packumentCache full:https://registry.npmjs.org/@protobufjs%2fcodegen set size:23820 disposed:false
+237 http fetch GET 200 https://registry.npmjs.org/@protobufjs%2faspromise 580ms (cache revalidated)
+238 silly packumentCache full:https://registry.npmjs.org/@protobufjs%2faspromise set size:11438 disposed:false
+239 http fetch GET 200 https://registry.npmjs.org/@protobufjs%2finquire 617ms (cache revalidated)
+240 silly packumentCache full:https://registry.npmjs.org/@protobufjs%2finquire set size:10538 disposed:false
+241 http fetch GET 200 https://registry.npmjs.org/@protobufjs%2ffetch 728ms (cache revalidated)
+242 silly packumentCache full:https://registry.npmjs.org/@protobufjs%2ffetch set size:12023 disposed:false
+243 http fetch GET 200 https://registry.npmjs.org/@protobufjs%2ffloat 770ms (cache revalidated)
+244 silly packumentCache full:https://registry.npmjs.org/@protobufjs%2ffloat set size:9957 disposed:false
+245 http fetch GET 200 https://registry.npmjs.org/@protobufjs%2fbase64 775ms (cache revalidated)
+246 silly packumentCache full:https://registry.npmjs.org/@protobufjs%2fbase64 set size:14176 disposed:false
+247 http fetch GET 200 https://registry.npmjs.org/@protobufjs%2feventemitter 882ms (cache revalidated)
+248 silly packumentCache full:https://registry.npmjs.org/@protobufjs%2feventemitter set size:13173 disposed:false
+249 silly placeDep ROOT @wasm-audio-decoders/flac@0.2.10 OK for: audio-decode@2.2.3 want: ^0.2.4
+250 silly placeDep ROOT @wasm-audio-decoders/ogg-vorbis@0.1.20 OK for: audio-decode@2.2.3 want: ^0.1.15
+251 silly placeDep ROOT audio-buffer@5.0.0 OK for: audio-decode@2.2.3 want: ^5.0.0
+252 silly placeDep ROOT audio-type@2.4.1 OK for: audio-decode@2.2.3 want: ^2.2.1
+253 silly placeDep ROOT mpg123-decoder@1.0.3 OK for: audio-decode@2.2.3 want: ^1.0.0
+254 silly placeDep ROOT node-wav@0.0.2 OK for: audio-decode@2.2.3 want: ^0.0.2
+255 silly placeDep ROOT ogg-opus-decoder@1.7.3 OK for: audio-decode@2.2.3 want: ^1.6.12
+256 silly placeDep ROOT qoa-format@1.0.1 OK for: audio-decode@2.2.3 want: ^1.0.1
+257 silly fetch manifest @wasm-audio-decoders/common@9.0.7
+258 silly packumentCache full:https://registry.npmjs.org/@wasm-audio-decoders%2fcommon cache-miss
+259 silly fetch manifest codec-parser@2.5.0
+260 silly packumentCache full:https://registry.npmjs.org/codec-parser cache-miss
+261 silly fetch manifest @wasm-audio-decoders/common@9.0.7
+262 silly packumentCache full:https://registry.npmjs.org/@wasm-audio-decoders%2fcommon cache-miss
+263 silly fetch manifest codec-parser@2.5.0
+264 silly packumentCache full:https://registry.npmjs.org/codec-parser cache-miss
+265 silly fetch manifest @wasm-audio-decoders/common@9.0.7
+266 silly packumentCache full:https://registry.npmjs.org/@wasm-audio-decoders%2fcommon cache-miss
+267 silly fetch manifest @wasm-audio-decoders/common@9.0.7
+268 silly packumentCache full:https://registry.npmjs.org/@wasm-audio-decoders%2fcommon cache-miss
+269 silly fetch manifest @wasm-audio-decoders/opus-ml@0.0.2
+270 silly packumentCache full:https://registry.npmjs.org/@wasm-audio-decoders%2fopus-ml cache-miss
+271 http fetch GET 200 https://registry.npmjs.org/@wasm-audio-decoders%2fcommon 561ms (cache revalidated)
+272 silly packumentCache full:https://registry.npmjs.org/@wasm-audio-decoders%2fcommon set size:60281 disposed:false
+273 silly fetch manifest opus-decoder@0.7.11
+274 silly packumentCache full:https://registry.npmjs.org/opus-decoder cache-miss
+275 http fetch GET 200 https://registry.npmjs.org/@wasm-audio-decoders%2fcommon 586ms (cache revalidated)
+276 silly packumentCache full:https://registry.npmjs.org/@wasm-audio-decoders%2fcommon set size:60281 disposed:false
+277 silly packumentCache full:https://registry.npmjs.org/@wasm-audio-decoders%2fcommon dispose
+278 silly fetch manifest codec-parser@2.5.0
+279 silly packumentCache full:https://registry.npmjs.org/codec-parser cache-miss
+280 http fetch GET 200 https://registry.npmjs.org/@wasm-audio-decoders%2fcommon 593ms (cache revalidated)
+281 silly packumentCache full:https://registry.npmjs.org/@wasm-audio-decoders%2fcommon set size:60281 disposed:true
+282 silly packumentCache full:https://registry.npmjs.org/@wasm-audio-decoders%2fcommon dispose
+283 silly fetch manifest @thi.ng/bitstream@^2.2.12
+284 silly packumentCache full:https://registry.npmjs.org/@thi.ng%2fbitstream cache-miss
+285 http fetch GET 200 https://registry.npmjs.org/@wasm-audio-decoders%2fcommon 598ms (cache revalidated)
+286 silly packumentCache full:https://registry.npmjs.org/@wasm-audio-decoders%2fcommon set size:60281 disposed:true
+287 silly packumentCache full:https://registry.npmjs.org/@wasm-audio-decoders%2fcommon dispose
+288 http fetch GET 200 https://registry.npmjs.org/codec-parser 617ms (cache revalidated)
+289 silly packumentCache full:https://registry.npmjs.org/codec-parser set size:84850 disposed:false
+290 http fetch GET 200 https://registry.npmjs.org/codec-parser 622ms (cache revalidated)
+291 silly packumentCache full:https://registry.npmjs.org/codec-parser set size:84850 disposed:false
+292 silly packumentCache full:https://registry.npmjs.org/codec-parser dispose
+293 http cache https://registry.npmjs.org/codec-parser 80ms (cache hit)
+294 silly packumentCache full:https://registry.npmjs.org/codec-parser set size:84850 disposed:true
+295 silly packumentCache full:https://registry.npmjs.org/codec-parser dispose
+296 http fetch GET 200 https://registry.npmjs.org/opus-decoder 584ms (cache revalidated)
+297 silly packumentCache full:https://registry.npmjs.org/opus-decoder set size:114203 disposed:false
+298 http fetch GET 200 https://registry.npmjs.org/@wasm-audio-decoders%2fopus-ml 1168ms (cache revalidated)
+299 silly packumentCache full:https://registry.npmjs.org/@wasm-audio-decoders%2fopus-ml set size:18849 disposed:false
+300 http fetch GET 200 https://registry.npmjs.org/@thi.ng%2fbitstream 1171ms (cache updated)
+301 silly packumentCache full:https://registry.npmjs.org/@thi.ng%2fbitstream set size:undefined disposed:false
+302 silly placeDep ROOT @wasm-audio-decoders/common@9.0.7 OK for: @wasm-audio-decoders/flac@0.2.10 want: 9.0.7
+303 silly placeDep ROOT codec-parser@2.5.0 OK for: @wasm-audio-decoders/flac@0.2.10 want: 2.5.0
+304 silly fetch manifest @eshaz/web-worker@1.2.2
+305 silly packumentCache full:https://registry.npmjs.org/@eshaz%2fweb-worker cache-miss
+306 silly fetch manifest simple-yenc@^1.0.4
+307 silly packumentCache full:https://registry.npmjs.org/simple-yenc cache-miss
+308 http fetch GET 200 https://registry.npmjs.org/@eshaz%2fweb-worker 400ms (cache revalidated)
+309 silly packumentCache full:https://registry.npmjs.org/@eshaz%2fweb-worker set size:12219 disposed:false
+310 http fetch GET 200 https://registry.npmjs.org/simple-yenc 500ms (cache revalidated)
+311 silly packumentCache full:https://registry.npmjs.org/simple-yenc set size:43953 disposed:false
+312 silly placeDep ROOT @eshaz/web-worker@1.2.2 OK for: @wasm-audio-decoders/common@9.0.7 want: 1.2.2
+313 silly placeDep ROOT simple-yenc@1.0.4 OK for: @wasm-audio-decoders/common@9.0.7 want: ^1.0.4
+314 silly placeDep ROOT eventemitter3@5.0.4 OK for: cache-manager@5.7.6 want: ^5.0.1
+315 silly placeDep ROOT lodash.clonedeep@4.5.0 OK for: cache-manager@5.7.6 want: ^4.5.0
+316 silly placeDep ROOT lru-cache@10.4.3 OK for: cache-manager@5.7.6 want: ^10.2.2
+317 silly placeDep ROOT promise-coalesce@1.5.0 OK for: cache-manager@5.7.6 want: ^1.1.2
+318 silly placeDep ROOT curve25519-js@0.0.4 OK for: libsignal@2.0.1 want: ^0.0.4
+319 silly placeDep node_modules/libsignal protobufjs@6.8.8 OK for: libsignal@2.0.1 want: 6.8.8
+320 silly fetch manifest @types/long@^4.0.0
+321 silly packumentCache full:https://registry.npmjs.org/@types%2flong cache-hit
+322 silly fetch manifest @types/node@^10.1.0
+323 silly packumentCache full:https://registry.npmjs.org/@types%2fnode cache-miss
+324 http cache https://registry.npmjs.org/@types%2fnode 103ms (cache hit)
+325 silly packumentCache full:https://registry.npmjs.org/@types%2fnode set size:11015753 disposed:false
+326 silly placeDep ROOT @tokenizer/token@0.3.0 OK for: music-metadata@7.14.0 want: ^0.3.0
+327 silly placeDep node_modules/music-metadata debug@4.4.3 OK for: music-metadata@7.14.0 want: ^4.3.4
+328 silly placeDep ROOT file-type@16.5.4 OK for: music-metadata@7.14.0 want: ^16.5.4
+329 silly placeDep ROOT media-typer@1.1.0 OK for: music-metadata@7.14.0 want: ^1.1.0
+330 silly placeDep ROOT strtok3@6.3.0 OK for: music-metadata@7.14.0 want: ^6.3.0
+331 silly placeDep ROOT token-types@4.2.1 OK for: music-metadata@7.14.0 want: ^4.2.1
+332 silly fetch manifest ms@^2.1.3
+333 silly packumentCache full:https://registry.npmjs.org/ms cache-miss
+334 silly fetch manifest strtok3@^6.2.4
+335 silly packumentCache full:https://registry.npmjs.org/strtok3 cache-hit
+336 silly fetch manifest token-types@^4.1.1
+337 silly packumentCache full:https://registry.npmjs.org/token-types cache-hit
+338 silly fetch manifest readable-web-to-node-stream@^3.0.0
+339 silly packumentCache full:https://registry.npmjs.org/readable-web-to-node-stream cache-miss
+340 silly fetch manifest peek-readable@^4.1.0
+341 silly packumentCache full:https://registry.npmjs.org/peek-readable cache-miss
+342 http fetch GET 200 https://registry.npmjs.org/readable-web-to-node-stream 206ms (cache revalidated)
+343 silly packumentCache full:https://registry.npmjs.org/readable-web-to-node-stream set size:47148 disposed:false
+344 http fetch GET 200 https://registry.npmjs.org/ms 237ms (cache revalidated)
+345 silly packumentCache full:https://registry.npmjs.org/ms set size:92208 disposed:false
+346 http fetch GET 200 https://registry.npmjs.org/peek-readable 720ms (cache revalidated)
+347 silly packumentCache full:https://registry.npmjs.org/peek-readable set size:130346 disposed:false
+348 silly placeDep ROOT readable-web-to-node-stream@3.0.4 OK for: file-type@16.5.4 want: ^3.0.0
+349 silly placeDep ROOT clone@2.1.2 OK for: node-cache@5.1.2 want: 2.x
+350 silly placeDep ROOT @wasm-audio-decoders/opus-ml@0.0.2 OK for: ogg-opus-decoder@1.7.3 want: 0.0.2
+351 silly placeDep ROOT opus-decoder@0.7.11 OK for: ogg-opus-decoder@1.7.3 want: 0.7.11
+352 silly placeDep ROOT @protobufjs/aspromise@1.1.2 OK for: protobufjs@6.11.6 want: ^1.1.2
+353 silly placeDep ROOT @protobufjs/base64@1.1.2 OK for: protobufjs@6.11.6 want: ^1.1.2
+354 silly placeDep ROOT @protobufjs/codegen@2.0.5 OK for: protobufjs@6.11.6 want: ^2.0.4
+355 silly placeDep ROOT @protobufjs/eventemitter@1.1.1 OK for: protobufjs@6.11.6 want: ^1.1.0
+356 silly placeDep ROOT @protobufjs/fetch@1.1.1 OK for: protobufjs@6.11.6 want: ^1.1.0
+357 silly placeDep ROOT @protobufjs/float@1.0.2 OK for: protobufjs@6.11.6 want: ^1.0.2
+358 silly placeDep ROOT @protobufjs/inquire@1.1.2 OK for: protobufjs@6.11.6 want: ^1.1.0
+359 silly placeDep ROOT @protobufjs/path@1.1.2 OK for: protobufjs@6.11.6 want: ^1.1.2
+360 silly placeDep ROOT @protobufjs/pool@1.1.0 OK for: protobufjs@6.11.6 want: ^1.1.0
+361 silly placeDep ROOT @protobufjs/utf8@1.1.1 OK for: protobufjs@6.11.6 want: ^1.1.0
+362 silly placeDep ROOT @types/long@4.0.2 OK for: protobufjs@6.11.6 want: ^4.0.1
+363 silly placeDep ROOT @types/node@25.9.1 OK for: protobufjs@6.11.6 want: >=13.7.0
+364 silly placeDep ROOT long@4.0.0 OK for: protobufjs@6.11.6 want: ^4.0.0
+365 silly fetch manifest undici-types@>=7.24.0 <7.24.7
+366 silly packumentCache full:https://registry.npmjs.org/undici-types cache-miss
+367 http fetch GET 200 https://registry.npmjs.org/undici-types 177ms (cache revalidated)
+368 silly packumentCache full:https://registry.npmjs.org/undici-types set size:218393 disposed:false
+369 silly placeDep ROOT undici-types@7.24.6 OK for: @types/node@25.9.1 want: >=7.24.0 <7.24.7
+370 silly placeDep ROOT @thi.ng/bitstream@2.4.52 OK for: qoa-format@1.0.1 want: ^2.2.12
+371 silly fetch manifest @thi.ng/errors@^2.6.14
+372 silly packumentCache full:https://registry.npmjs.org/@thi.ng%2ferrors cache-miss
+373 http fetch GET 200 https://registry.npmjs.org/@thi.ng%2ferrors 1085ms (cache updated)
+374 silly packumentCache full:https://registry.npmjs.org/@thi.ng%2ferrors set size:undefined disposed:false
+375 silly placeDep ROOT @thi.ng/errors@2.6.14 OK for: @thi.ng/bitstream@2.4.52 want: ^2.6.14
+376 silly placeDep ROOT peek-readable@4.1.0 OK for: strtok3@6.3.0 want: ^4.1.0
+377 silly placeDep node_modules/@whiskeysockets/baileys on-exit-leak-free@0.2.0 OK for: pino@7.11.0 want: ^0.2.0
+378 silly placeDep node_modules/@whiskeysockets/baileys pino-abstract-transport@0.5.0 OK for: pino@7.11.0 want: v0.5.0
+379 silly placeDep node_modules/@whiskeysockets/baileys pino-std-serializers@4.0.0 OK for: pino@7.11.0 want: ^4.0.0
+380 silly placeDep node_modules/@whiskeysockets/baileys process-warning@1.0.0 OK for: pino@7.11.0 want: ^1.0.0
+381 silly placeDep node_modules/@whiskeysockets/baileys real-require@0.1.0 OK for: pino@7.11.0 want: ^0.1.0
+382 silly placeDep node_modules/@whiskeysockets/baileys sonic-boom@2.8.0 OK for: pino@7.11.0 want: ^2.2.1
+383 silly placeDep node_modules/@whiskeysockets/baileys thread-stream@0.15.2 OK for: pino@7.11.0 want: ^0.15.1
+384 silly fetch manifest duplexify@^4.1.2
+385 silly packumentCache full:https://registry.npmjs.org/duplexify cache-miss
+386 http fetch GET 200 https://registry.npmjs.org/duplexify 203ms (cache revalidated)
+387 silly packumentCache full:https://registry.npmjs.org/duplexify set size:73064 disposed:false
+388 silly placeDep ROOT duplexify@4.1.3 OK for: pino-abstract-transport@0.5.0 want: ^4.1.2
+389 silly fetch manifest end-of-stream@^1.4.1
+390 silly packumentCache full:https://registry.npmjs.org/end-of-stream cache-miss
+391 silly fetch manifest readable-stream@^3.1.1
+392 silly packumentCache full:https://registry.npmjs.org/readable-stream cache-miss
+393 silly fetch manifest stream-shift@^1.0.2
+394 silly packumentCache full:https://registry.npmjs.org/stream-shift cache-miss
+395 http fetch GET 200 https://registry.npmjs.org/end-of-stream 175ms (cache revalidated)
+396 silly packumentCache full:https://registry.npmjs.org/end-of-stream set size:27842 disposed:false
+397 http fetch GET 200 https://registry.npmjs.org/readable-stream 210ms (cache revalidated)
+398 silly packumentCache full:https://registry.npmjs.org/readable-stream set size:261096 disposed:false
+399 http fetch GET 200 https://registry.npmjs.org/stream-shift 253ms (cache revalidated)
+400 silly packumentCache full:https://registry.npmjs.org/stream-shift set size:8066 disposed:false
+401 silly placeDep ROOT end-of-stream@1.4.5 OK for: duplexify@4.1.3 want: ^1.4.1
+402 silly placeDep node_modules/duplexify readable-stream@3.6.2 OK for: duplexify@4.1.3 want: ^3.1.1
+403 silly placeDep ROOT stream-shift@1.0.3 OK for: duplexify@4.1.3 want: ^1.0.2
+404 silly fetch manifest once@^1.4.0
+405 silly packumentCache full:https://registry.npmjs.org/once cache-miss
+406 silly fetch manifest util-deprecate@^1.0.1
+407 silly packumentCache full:https://registry.npmjs.org/util-deprecate cache-miss
+408 http fetch GET 200 https://registry.npmjs.org/once 186ms (cache revalidated)
+409 silly packumentCache full:https://registry.npmjs.org/once set size:11752 disposed:false
+410 http fetch GET 200 https://registry.npmjs.org/util-deprecate 194ms (cache revalidated)
+411 silly packumentCache full:https://registry.npmjs.org/util-deprecate set size:6674 disposed:false
+412 silly placeDep ROOT once@1.4.0 OK for: end-of-stream@1.4.5 want: ^1.4.0
+413 silly fetch manifest wrappy@1
+414 silly packumentCache full:https://registry.npmjs.org/wrappy cache-miss
+415 http fetch GET 200 https://registry.npmjs.org/wrappy 184ms (cache revalidated)
+416 silly packumentCache full:https://registry.npmjs.org/wrappy set size:7682 disposed:false
+417 silly placeDep ROOT wrappy@1.0.2 OK for: once@1.4.0 want: 1
+418 silly placeDep ROOT util-deprecate@1.0.2 OK for: readable-stream@3.6.2 want: ^1.0.1
+419 silly placeDep node_modules/libsignal @types/node@10.17.60 OK for: protobufjs@6.8.8 want: ^10.1.0
+420 silly placeDep node_modules/music-metadata ms@2.1.3 OK for: debug@4.4.3 want: ^2.1.3
+421 silly reify mark retired [
+421 silly reify   '/data/data/com.termux/files/home/xavibot/node_modules/@borewit/text-codec'
+421 silly reify ]
+422 silly reify mark retired [
+422 silly reify   '/data/data/com.termux/files/home/xavibot/node_modules/@cacheable/memory'
+422 silly reify ]
+423 silly reify mark retired [
+423 silly reify   '/data/data/com.termux/files/home/xavibot/node_modules/@cacheable/node-cache'
+423 silly reify ]
+424 silly reify mark retired [
+424 silly reify   '/data/data/com.termux/files/home/xavibot/node_modules/@cacheable/utils'
+424 silly reify ]
+425 silly reify mark retired [ '/data/data/com.termux/files/home/xavibot/node_modules/@img/colour' ]
+426 silly reify mark retired [
+426 silly reify   '/data/data/com.termux/files/home/xavibot/node_modules/@keyv/bigmap'
+426 silly reify ]
+427 silly reify mark retired [
+427 silly reify   '/data/data/com.termux/files/home/xavibot/node_modules/@keyv/serialize'
+427 silly reify ]
+428 silly reify mark retired [
+428 silly reify   '/data/data/com.termux/files/home/xavibot/node_modules/@pinojs/redact'
+428 silly reify ]
+429 silly reify mark retired [
+429 silly reify   '/data/data/com.termux/files/home/xavibot/node_modules/@tokenizer/inflate'
+429 silly reify ]
+430 silly reify mark retired [
+430 silly reify   '/data/data/com.termux/files/home/xavibot/node_modules/@whiskeysockets/baileys'
+430 silly reify ]
+431 silly reify mark retired [ '/data/data/com.termux/files/home/xavibot/node_modules/async-mutex' ]
+432 silly reify mark retired [ '/data/data/com.termux/files/home/xavibot/node_modules/cacheable' ]
+433 silly reify mark retired [ '/data/data/com.termux/files/home/xavibot/node_modules/detect-libc' ]
+434 silly reify mark retired [ '/data/data/com.termux/files/home/xavibot/node_modules/file-type' ]
+435 silly reify mark retired [ '/data/data/com.termux/files/home/xavibot/node_modules/hashery' ]
+436 silly reify mark retired [ '/data/data/com.termux/files/home/xavibot/node_modules/hookified' ]
+437 silly reify mark retired [ '/data/data/com.termux/files/home/xavibot/node_modules/keyv' ]
+438 silly reify mark retired [ '/data/data/com.termux/files/home/xavibot/node_modules/libsignal' ]
+439 silly reify mark retired [ '/data/data/com.termux/files/home/xavibot/node_modules/long' ]
+440 silly reify mark retired [
+440 silly reify   '/data/data/com.termux/files/home/xavibot/node_modules/music-metadata'
+440 silly reify ]
+441 silly reify mark retired [ '/data/data/com.termux/files/home/xavibot/node_modules/protobufjs' ]
+442 silly reify mark retired [ '/data/data/com.termux/files/home/xavibot/node_modules/qified' ]
+443 silly reify mark retired [
+443 silly reify   '/data/data/com.termux/files/home/xavibot/node_modules/semver',
+443 silly reify   '/data/data/com.termux/files/home/xavibot/node_modules/.bin/semver'
+443 silly reify ]
+444 silly reify mark retired [ '/data/data/com.termux/files/home/xavibot/node_modules/sharp' ]
+445 silly reify mark retired [ '/data/data/com.termux/files/home/xavibot/node_modules/strtok3' ]
+446 silly reify mark retired [ '/data/data/com.termux/files/home/xavibot/node_modules/token-types' ]
+447 silly reify mark retired [ '/data/data/com.termux/files/home/xavibot/node_modules/tslib' ]
+448 silly reify mark retired [
+448 silly reify   '/data/data/com.termux/files/home/xavibot/node_modules/uint8array-extras'
+448 silly reify ]
+449 silly reify mark retired [ '/data/data/com.termux/files/home/xavibot/node_modules/win-guid' ]
+450 silly reify moves {
+450 silly reify   '/data/data/com.termux/files/home/xavibot/node_modules/@borewit/text-codec': '/data/data/com.termux/files/home/xavibot/node_modules/@borewit/.text-codec-LAyxPaCm',
+450 silly reify   '/data/data/com.termux/files/home/xavibot/node_modules/@cacheable/memory': '/data/data/com.termux/files/home/xavibot/node_modules/@cacheable/.memory-3mhF9FFY',
+450 silly reify   '/data/data/com.termux/files/home/xavibot/node_modules/@cacheable/node-cache': '/data/data/com.termux/files/home/xavibot/node_modules/@cacheable/.node-cache-gjhfWNap',
+450 silly reify   '/data/data/com.termux/files/home/xavibot/node_modules/@cacheable/utils': '/data/data/com.termux/files/home/xavibot/node_modules/@cacheable/.utils-JYZ6Fm05',
+450 silly reify   '/data/data/com.termux/files/home/xavibot/node_modules/@img/colour': '/data/data/com.termux/files/home/xavibot/node_modules/@img/.colour-sPJRTNhq',
+450 silly reify   '/data/data/com.termux/files/home/xavibot/node_modules/@keyv/bigmap': '/data/data/com.termux/files/home/xavibot/node_modules/@keyv/.bigmap-1ZE2awoh',
+450 silly reify   '/data/data/com.termux/files/home/xavibot/node_modules/@keyv/serialize': '/data/data/com.termux/files/home/xavibot/node_modules/@keyv/.serialize-Vj8rNNx8',
+450 silly reify   '/data/data/com.termux/files/home/xavibot/node_modules/@pinojs/redact': '/data/data/com.termux/files/home/xavibot/node_modules/@pinojs/.redact-URU8ifhV',
+450 silly reify   '/data/data/com.termux/files/home/xavibot/node_modules/@tokenizer/inflate': '/data/data/com.termux/files/home/xavibot/node_modules/@tokenizer/.inflate-xXX0ghs6',
+450 silly reify   '/data/data/com.termux/files/home/xavibot/node_modules/@whiskeysockets/baileys': '/data/data/com.termux/files/home/xavibot/node_modules/@whiskeysockets/.baileys-bjLrsIgK',
+450 silly reify   '/data/data/com.termux/files/home/xavibot/node_modules/async-mutex': '/data/data/com.termux/files/home/xavibot/node_modules/.async-mutex-ckCVeDlc',
+450 silly reify   '/data/data/com.termux/files/home/xavibot/node_modules/cacheable': '/data/data/com.termux/files/home/xavibot/node_modules/.cacheable-OQir19S2',
+450 silly reify   '/data/data/com.termux/files/home/xavibot/node_modules/detect-libc': '/data/data/com.termux/files/home/xavibot/node_modules/.detect-libc-dxlyH5hz',
+450 silly reify   '/data/data/com.termux/files/home/xavibot/node_modules/file-type': '/data/data/com.termux/files/home/xavibot/node_modules/.file-type-dGP74i6j',
+450 silly reify   '/data/data/com.termux/files/home/xavibot/node_modules/hashery': '/data/data/com.termux/files/home/xavibot/node_modules/.hashery-SrVn9q7y',
+450 silly reify   '/data/data/com.termux/files/home/xavibot/node_modules/hookified': '/data/data/com.termux/files/home/xavibot/node_modules/.hookified-e7xYznDY',
+450 silly reify   '/data/data/com.termux/files/home/xavibot/node_modules/keyv': '/data/data/com.termux/files/home/xavibot/node_modules/.keyv-125xqkTg',
+450 silly reify   '/data/data/com.termux/files/home/xavibot/node_modules/libsignal': '/data/data/com.termux/files/home/xavibot/node_modules/.libsignal-4cwWTn4x',
+450 silly reify   '/data/data/com.termux/files/home/xavibot/node_modules/long': '/data/data/com.termux/files/home/xavibot/node_modules/.long-xN2zGbwN',
+450 silly reify   '/data/data/com.termux/files/home/xavibot/node_modules/music-metadata': '/data/data/com.termux/files/home/xavibot/node_modules/.music-metadata-4cNQKgUi',
+450 silly reify   '/data/data/com.termux/files/home/xavibot/node_modules/protobufjs': '/data/data/com.termux/files/home/xavibot/node_modules/.protobufjs-IRlmo189',
+450 silly reify   '/data/data/com.termux/files/home/xavibot/node_modules/qified': '/data/data/com.termux/files/home/xavibot/node_modules/.qified-IolkxZLR',
+450 silly reify   '/data/data/com.termux/files/home/xavibot/node_modules/semver': '/data/data/com.termux/files/home/xavibot/node_modules/.semver-bv65LwK6',
+450 silly reify   '/data/data/com.termux/files/home/xavibot/node_modules/.bin/semver': '/data/data/com.termux/files/home/xavibot/node_modules/.bin/.semver-QD2qwOaw',
+450 silly reify   '/data/data/com.termux/files/home/xavibot/node_modules/sharp': '/data/data/com.termux/files/home/xavibot/node_modules/.sharp-lfUjJA3Q',
+450 silly reify   '/data/data/com.termux/files/home/xavibot/node_modules/strtok3': '/data/data/com.termux/files/home/xavibot/node_modules/.strtok3-GCNlGkuh',
+450 silly reify   '/data/data/com.termux/files/home/xavibot/node_modules/token-types': '/data/data/com.termux/files/home/xavibot/node_modules/.token-types-74GiZ7qI',
+450 silly reify   '/data/data/com.termux/files/home/xavibot/node_modules/tslib': '/data/data/com.termux/files/home/xavibot/node_modules/.tslib-58ex2oBF',
+450 silly reify   '/data/data/com.termux/files/home/xavibot/node_modules/uint8array-extras': '/data/data/com.termux/files/home/xavibot/node_modules/.uint8array-extras-d0zm4ShL',
+450 silly reify   '/data/data/com.termux/files/home/xavibot/node_modules/win-guid': '/data/data/com.termux/files/home/xavibot/node_modules/.win-guid-g5gQ11Sz'
+450 silly reify }
+451 silly audit bulk request {
+451 silly audit   '@hapi/boom': [ '9.1.4' ],
+451 silly audit   '@hapi/hoek': [ '9.3.0' ],
+451 silly audit   '@mongodb-js/saslprep': [ '1.4.11' ],
+451 silly audit   debug: [ '4.4.3', '2.6.9' ],
+451 silly audit   ms: [ '2.1.3', '2.0.0' ],
+451 silly audit   '@types/webidl-conversions': [ '7.0.3' ],
+451 silly audit   '@types/whatwg-url': [ '11.0.5' ],
+451 silly audit   pino: [ '8.21.0', '7.11.0' ],
+451 silly audit   'pino-abstract-transport': [ '1.2.0', '0.5.0' ],
+451 silly audit   'pino-std-serializers': [ '6.2.2', '4.0.0' ],
+451 silly audit   'process-warning': [ '3.0.0', '1.0.0' ],
+451 silly audit   'sonic-boom': [ '3.8.1', '2.8.0' ],
+451 silly audit   'thread-stream': [ '2.7.0', '0.15.2' ],
+451 silly audit   'abort-controller': [ '3.0.0' ],
+451 silly audit   accepts: [ '1.3.8' ],
+451 silly audit   'agent-base': [ '6.0.2' ],
+451 silly audit   'ansi-regex': [ '5.0.1' ],
+451 silly audit   'ansi-styles': [ '4.3.0' ],
+451 silly audit   'array-flatten': [ '1.1.1' ],
+451 silly audit   asynckit: [ '0.4.0' ],
+451 silly audit   'atomic-sleep': [ '1.0.0' ],
+451 silly audit   axios: [ '1.16.1' ],
+451 silly audit   'base64-js': [ '1.5.1' ],
+451 silly audit   'body-parser': [ '1.20.5' ],
+451 silly audit   bson: [ '6.10.4' ],
+451 silly audit   buffer: [ '6.0.3' ],
+451 silly audit   bytes: [ '3.1.2' ],
+451 silly audit   'call-bind-apply-helpers': [ '1.0.2' ],
+451 silly audit   'call-bound': [ '1.0.4' ],
+451 silly audit   camelcase: [ '5.3.1' ],
+451 silly audit   cliui: [ '6.0.0' ],
+451 silly audit   'color-convert': [ '2.0.1' ],
+451 silly audit   'color-name': [ '1.1.4' ],
+451 silly audit   'combined-stream': [ '1.0.8' ],
+451 silly audit   'content-disposition': [ '0.5.4' ],
+451 silly audit   'content-type': [ '1.0.5' ],
+451 silly audit   cookie: [ '0.7.2' ],
+451 silly audit   'cookie-signature': [ '1.0.7' ],
+451 silly audit   decamelize: [ '1.2.0' ],
+451 silly audit   'delayed-stream': [ '1.0.0' ],
+451 silly audit   depd: [ '2.0.0' ],
+451 silly audit   destroy: [ '1.2.0' ],
+451 silly audit   dijkstrajs: [ '1.0.3' ],
+451 silly audit   dotenv: [ '16.6.1' ],
+451 silly audit   'dunder-proto': [ '1.0.1' ],
+451 silly audit   'ee-first': [ '1.1.1' ],
+451 silly audit   'emoji-regex': [ '8.0.0' ],
+451 silly audit   encodeurl: [ '2.0.0' ],
+451 silly audit   'es-define-property': [ '1.0.1' ],
+451 silly audit   'es-errors': [ '1.3.0' ],
+451 silly audit   'es-object-atoms': [ '1.1.2' ],
+451 silly audit   'es-set-tostringtag': [ '2.1.0' ],
+451 silly audit   'escape-html': [ '1.0.3' ],
+451 silly audit   etag: [ '1.8.1' ],
+451 silly audit   'event-target-shim': [ '5.0.1' ],
+451 silly audit   events: [ '3.3.0' ],
+451 silly audit   express: [ '4.22.2' ],
+451 silly audit   'fast-redact': [ '3.5.0' ],
+451 silly audit   finalhandler: [ '1.3.2' ],
+451 silly audit   'find-up': [ '4.1.0' ],
+451 silly audit   'follow-redirects': [ '1.16.0' ],
+451 silly audit   'form-data': [ '4.0.5' ],
+451 silly audit   forwarded: [ '0.2.0' ],
+451 silly audit   fresh: [ '0.5.2' ],
+451 silly audit   'fs-extra': [ '11.3.5' ],
+451 silly audit   'function-bind': [ '1.1.2' ],
+451 silly audit   'get-caller-file': [ '2.0.5' ],
+451 silly audit   'get-intrinsic': [ '1.3.0' ],
+451 silly audit   'get-proto': [ '1.0.1' ],
+451 silly audit   gopd: [ '1.2.0' ],
+451 silly audit   'graceful-fs': [ '4.2.11' ],
+451 silly audit   'has-symbols': [ '1.1.0' ],
+451 silly audit   'has-tostringtag': [ '1.0.2' ],
+451 silly audit   hasown: [ '2.0.3' ],
+451 silly audit   'http-errors': [ '2.0.1' ],
+451 silly audit   'https-proxy-agent': [ '5.0.1' ],
+451 silly audit   'iconv-lite': [ '0.4.24' ],
+451 silly audit   ieee754: [ '1.2.1' ],
+451 silly audit   inherits: [ '2.0.4' ],
+451 silly audit   'ipaddr.js': [ '1.9.1' ],
+451 silly audit   'is-fullwidth-code-point': [ '3.0.0' ],
+451 silly audit   jsonfile: [ '6.2.1' ],
+451 silly audit   kareem: [ '2.6.3' ],
+451 silly audit   'locate-path': [ '5.0.0' ],
+451 silly audit   'math-intrinsics': [ '1.1.0' ],
+451 silly audit   'media-typer': [ '0.3.0', '1.1.0' ],
+451 silly audit   'memory-pager': [ '1.5.0' ],
+451 silly audit   'merge-descriptors': [ '1.0.3' ],
+451 silly audit   methods: [ '1.1.2' ],
+451 silly audit   mime: [ '1.6.0' ],
+451 silly audit   'mime-db': [ '1.52.0' ],
+451 silly audit   'mime-types': [ '2.1.35' ],
+451 silly audit   mongodb: [ '6.20.0' ],
+451 silly audit   'mongodb-connection-string-url': [ '3.0.2' ],
+451 silly audit   mongoose: [ '8.24.0' ],
+451 silly audit   mpath: [ '0.9.0' ],
+451 silly audit   mquery: [ '5.0.0' ],
+451 silly audit   negotiator: [ '0.6.3' ],
+451 silly audit   'node-fetch': [ '2.7.0' ],
+451 silly audit   tr46: [ '0.0.3', '5.1.1' ],
+451 silly audit   'webidl-conversions': [ '3.0.1', '7.0.0' ],
+451 silly audit   'whatwg-url': [ '5.0.0', '14.2.0' ],
+451 silly audit   'object-inspect': [ '1.13.4' ],
+451 silly audit   'on-exit-leak-free': [ '2.1.2', '0.2.0' ],
+451 silly audit   'on-finished': [ '2.4.1' ],
+451 silly audit   'p-limit': [ '2.3.0' ],
+451 silly audit   'p-locate': [ '4.1.0' ],
+451 silly audit   'p-try': [ '2.2.0' ],
+451 silly audit   parseurl: [ '1.3.3' ],
+451 silly audit   'path-exists': [ '4.0.0' ],
+451 silly audit   'path-to-regexp': [ '0.1.13' ],
+451 silly audit   pngjs: [ '5.0.0' ],
+451 silly audit   process: [ '0.11.10' ],
+451 silly audit   'proxy-addr': [ '2.0.7' ],
+451 silly audit   'proxy-from-env': [ '2.1.0' ],
+451 silly audit   punycode: [ '2.3.1' ],
+451 silly audit   qrcode: [ '1.5.4' ],
+451 silly audit   qs: [ '6.15.2' ],
+451 silly audit   'quick-format-unescaped': [ '4.0.4' ],
+451 silly audit   'range-parser': [ '1.2.1' ],
+451 silly audit   'raw-body': [ '2.5.3' ],
+451 silly audit   'readable-stream': [ '4.7.0', '3.6.2' ],
+451 silly audit   'real-require': [ '0.2.0', '0.1.0' ],
+451 silly audit   'require-directory': [ '2.1.1' ],
+451 silly audit   'require-main-filename': [ '2.0.0' ],
+451 silly audit   'safe-buffer': [ '5.2.1' ],
+451 silly audit   'safe-stable-stringify': [ '2.5.0' ],
+451 silly audit   'safer-buffer': [ '2.1.2' ],
+451 silly audit   send: [ '0.19.2' ],
+451 silly audit   'serve-static': [ '1.16.3' ],
+451 silly audit   'set-blocking': [ '2.0.0' ],
+451 silly audit   setprototypeof: [ '1.2.0' ],
+451 silly audit   'side-channel': [ '1.1.0' ],
+451 silly audit   'side-channel-list': [ '1.0.1' ],
+451 silly audit   'side-channel-map': [ '1.0.1' ],
+451 silly audit   'side-channel-weakmap': [ '1.0.2' ],
+451 silly audit   sift: [ '17.1.3' ],
+451 silly audit   'sparse-bitfield': [ '3.0.3' ],
+451 silly audit   split2: [ '4.2.0' ],
+451 silly audit   statuses: [ '2.0.2' ],
+451 silly audit   string_decoder: [ '1.3.0' ],
+451 silly audit   'string-width': [ '4.2.3' ],
+451 silly audit   'strip-ansi': [ '6.0.1' ],
+451 silly audit   toidentifier: [ '1.0.1' ],
+451 silly audit   'type-is': [ '1.6.18' ],
+451 silly audit   universalify: [ '2.0.1' ],
+451 silly audit   unpipe: [ '1.0.0' ],
+451 silly audit   'utils-merge': [ '1.0.1' ],
+451 silly audit   vary: [ '1.1.2' ],
+451 silly audit   'which-module': [ '2.0.1' ],
+451 silly audit   'wrap-ansi': [ '6.2.0' ],
+451 silly audit   ws: [ '8.21.0' ],
+451 silly audit   y18n: [ '4.0.3' ],
+451 silly audit   yargs: [ '15.4.1' ],
+451 silly audit   'yargs-parser': [ '18.1.3' ],
+451 silly audit   '@whiskeysockets/baileys': [ '6.5.0' ],
+451 silly audit   '@adiwajshing/keyed-db': [ '0.2.4' ],
+451 silly audit   'audio-decode': [ '2.2.3' ],
+451 silly audit   'cache-manager': [ '5.7.6' ],
+451 silly audit   'futoin-hkdf': [ '1.5.3' ],
+451 silly audit   'libphonenumber-js': [ '1.13.3' ],
+451 silly audit   libsignal: [ '2.0.1' ],
+451 silly audit   'music-metadata': [ '7.14.0' ],
+451 silly audit   'node-cache': [ '5.1.2' ],
+451 silly audit   protobufjs: [ '6.11.6', '6.8.8' ],
+451 silly audit   uuid: [ '9.0.1' ],
+451 silly audit   '@wasm-audio-decoders/flac': [ '0.2.10' ],
+451 silly audit   '@wasm-audio-decoders/ogg-vorbis': [ '0.1.20' ],
+451 silly audit   'audio-buffer': [ '5.0.0' ],
+451 silly audit   'audio-type': [ '2.4.1' ],
+451 silly audit   'mpg123-decoder': [ '1.0.3' ],
+451 silly audit   'node-wav': [ '0.0.2' ],
+451 silly audit   'ogg-opus-decoder': [ '1.7.3' ],
+451 silly audit   'qoa-format': [ '1.0.1' ],
+451 silly audit   '@wasm-audio-decoders/common': [ '9.0.7' ],
+451 silly audit   'codec-parser': [ '2.5.0' ],
+451 silly audit   '@eshaz/web-worker': [ '1.2.2' ],
+451 silly audit   'simple-yenc': [ '1.0.4' ],
+451 silly audit   eventemitter3: [ '5.0.4' ],
+451 silly audit   'lodash.clonedeep': [ '4.5.0' ],
+451 silly audit   'lru-cache': [ '10.4.3' ],
+451 silly audit   'promise-coalesce': [ '1.5.0' ],
+451 silly audit   'curve25519-js': [ '0.0.4' ],
+451 silly audit   '@tokenizer/token': [ '0.3.0' ],
+451 silly audit   'file-type': [ '16.5.4' ],
+451 silly audit   strtok3: [ '6.3.0' ],
+451 silly audit   'token-types': [ '4.2.1' ],
+451 silly audit   'readable-web-to-node-stream': [ '3.0.4' ],
+451 silly audit   clone: [ '2.1.2' ],
+451 silly audit   '@wasm-audio-decoders/opus-ml': [ '0.0.2' ],
+451 silly audit   'opus-decoder': [ '0.7.11' ],
+451 silly audit   '@protobufjs/aspromise': [ '1.1.2' ],
+451 silly audit   '@protobufjs/base64': [ '1.1.2' ],
+451 silly audit   '@protobufjs/codegen': [ '2.0.5' ],
+451 silly audit   '@protobufjs/eventemitter': [ '1.1.1' ],
+451 silly audit   '@protobufjs/fetch': [ '1.1.1' ],
+451 silly audit   '@protobufjs/float': [ '1.0.2' ],
+451 silly audit   '@protobufjs/inquire': [ '1.1.2' ],
+451 silly audit   '@protobufjs/path': [ '1.1.2' ],
+451 silly audit   '@protobufjs/pool': [ '1.1.0' ],
+451 silly audit   '@protobufjs/utf8': [ '1.1.1' ],
+451 silly audit   '@types/long': [ '4.0.2' ],
+451 silly audit   '@types/node': [ '25.9.1', '10.17.60' ],
+451 silly audit   long: [ '4.0.0' ],
+451 silly audit   'undici-types': [ '7.24.6' ],
+451 silly audit   '@thi.ng/bitstream': [ '2.4.52' ],
+451 silly audit   '@thi.ng/errors': [ '2.6.14' ],
+451 silly audit   'peek-readable': [ '4.1.0' ],
+451 silly audit   duplexify: [ '4.1.3' ],
+451 silly audit   'end-of-stream': [ '1.4.5' ],
+451 silly audit   'stream-shift': [ '1.0.3' ],
+451 silly audit   once: [ '1.4.0' ],
+451 silly audit   wrappy: [ '1.0.2' ],
+451 silly audit   'util-deprecate': [ '1.0.2' ]
+451 silly audit }
+452 http cache util-deprecate@https://registry.npmjs.org/util-deprecate/-/util-deprecate-1.0.2.tgz 1ms (cache hit)
+453 http cache wrappy@https://registry.npmjs.org/wrappy/-/wrappy-1.0.2.tgz 1ms (cache hit)
+454 http cache once@https://registry.npmjs.org/once/-/once-1.4.0.tgz 0ms (cache hit)
+455 http cache stream-shift@https://registry.npmjs.org/stream-shift/-/stream-shift-1.0.3.tgz 0ms (cache hit)
+456 http cache end-of-stream@https://registry.npmjs.org/end-of-stream/-/end-of-stream-1.4.5.tgz 0ms (cache hit)
+457 http cache duplexify@https://registry.npmjs.org/duplexify/-/duplexify-4.1.3.tgz 0ms (cache hit)
+458 http cache peek-readable@https://registry.npmjs.org/peek-readable/-/peek-readable-4.1.0.tgz 0ms (cache hit)
+459 http cache @thi.ng/errors@https://registry.npmjs.org/@thi.ng/errors/-/errors-2.6.14.tgz 1ms (cache hit)
+460 http cache @thi.ng/bitstream@https://registry.npmjs.org/@thi.ng/bitstream/-/bitstream-2.4.52.tgz 0ms (cache hit)
+461 http cache @types/long@https://registry.npmjs.org/@types/long/-/long-4.0.2.tgz 1ms (cache hit)
+462 http cache opus-decoder@https://registry.npmjs.org/opus-decoder/-/opus-decoder-0.7.11.tgz 1ms (cache hit)
+463 http cache @wasm-audio-decoders/opus-ml@https://registry.npmjs.org/@wasm-audio-decoders/opus-ml/-/opus-ml-0.0.2.tgz 0ms (cache hit)
+464 http cache clone@https://registry.npmjs.org/clone/-/clone-2.1.2.tgz 0ms (cache hit)
+465 http cache readable-web-to-node-stream@https://registry.npmjs.org/readable-web-to-node-stream/-/readable-web-to-node-stream-3.0.4.tgz 1ms (cache hit)
+466 http cache promise-coalesce@https://registry.npmjs.org/promise-coalesce/-/promise-coalesce-1.5.0.tgz 0ms (cache hit)
+467 http cache lru-cache@https://registry.npmjs.org/lru-cache/-/lru-cache-10.4.3.tgz 0ms (cache hit)
+468 http cache lodash.clonedeep@https://registry.npmjs.org/lodash.clonedeep/-/lodash.clonedeep-4.5.0.tgz 0ms (cache hit)
+469 http cache eventemitter3@https://registry.npmjs.org/eventemitter3/-/eventemitter3-5.0.4.tgz 0ms (cache hit)
+470 http cache simple-yenc@https://registry.npmjs.org/simple-yenc/-/simple-yenc-1.0.4.tgz 0ms (cache hit)
+471 http cache @eshaz/web-worker@https://registry.npmjs.org/@eshaz/web-worker/-/web-worker-1.2.2.tgz 0ms (cache hit)
+472 http cache codec-parser@https://registry.npmjs.org/codec-parser/-/codec-parser-2.5.0.tgz 0ms (cache hit)
+473 http cache @wasm-audio-decoders/common@https://registry.npmjs.org/@wasm-audio-decoders/common/-/common-9.0.7.tgz 1ms (cache hit)
+474 http cache qoa-format@https://registry.npmjs.org/qoa-format/-/qoa-format-1.0.1.tgz 0ms (cache hit)
+475 http cache ogg-opus-decoder@https://registry.npmjs.org/ogg-opus-decoder/-/ogg-opus-decoder-1.7.3.tgz 0ms (cache hit)
+476 http cache node-wav@https://registry.npmjs.org/node-wav/-/node-wav-0.0.2.tgz 0ms (cache hit)
+477 http cache mpg123-decoder@https://registry.npmjs.org/mpg123-decoder/-/mpg123-decoder-1.0.3.tgz 0ms (cache hit)
+478 http cache audio-type@https://registry.npmjs.org/audio-type/-/audio-type-2.4.1.tgz 0ms (cache hit)
+479 http cache audio-buffer@https://registry.npmjs.org/audio-buffer/-/audio-buffer-5.0.0.tgz 0ms (cache hit)
+480 http cache @wasm-audio-decoders/flac@https://registry.npmjs.org/@wasm-audio-decoders/flac/-/flac-0.2.10.tgz 0ms (cache hit)
+481 http cache uuid@https://registry.npmjs.org/uuid/-/uuid-9.0.1.tgz 0ms (cache hit)
+482 http cache @wasm-audio-decoders/ogg-vorbis@https://registry.npmjs.org/@wasm-audio-decoders/ogg-vorbis/-/ogg-vorbis-0.1.20.tgz 0ms (cache hit)
+483 http cache libphonenumber-js@https://registry.npmjs.org/libphonenumber-js/-/libphonenumber-js-1.13.3.tgz 0ms (cache hit)
+484 http cache node-cache@https://registry.npmjs.org/node-cache/-/node-cache-5.1.2.tgz 0ms (cache hit)
+485 http cache futoin-hkdf@https://registry.npmjs.org/futoin-hkdf/-/futoin-hkdf-1.5.3.tgz 0ms (cache hit)
+486 http cache cache-manager@https://registry.npmjs.org/cache-manager/-/cache-manager-5.7.6.tgz 0ms (cache hit)
+487 http cache audio-decode@https://registry.npmjs.org/audio-decode/-/audio-decode-2.2.3.tgz 0ms (cache hit)
+488 http cache @adiwajshing/keyed-db@https://registry.npmjs.org/@adiwajshing/keyed-db/-/keyed-db-0.2.4.tgz 0ms (cache hit)
+489 http cache token-types@https://registry.npmjs.org/token-types/-/token-types-4.2.1.tgz 0ms (cache hit)
+490 http cache strtok3@https://registry.npmjs.org/strtok3/-/strtok3-6.3.0.tgz 0ms (cache hit)
+491 http cache protobufjs@https://registry.npmjs.org/protobufjs/-/protobufjs-6.11.6.tgz 0ms (cache hit)
+492 http cache music-metadata@https://registry.npmjs.org/music-metadata/-/music-metadata-7.14.0.tgz 0ms (cache hit)
+493 http cache long@https://registry.npmjs.org/long/-/long-4.0.0.tgz 0ms (cache hit)
+494 http cache file-type@https://registry.npmjs.org/file-type/-/file-type-16.5.4.tgz 0ms (cache hit)
+495 http cache @whiskeysockets/baileys@https://registry.npmjs.org/@whiskeysockets/baileys/-/baileys-6.5.0.tgz 0ms (cache hit)
+496 http cache readable-stream@https://registry.npmjs.org/readable-stream/-/readable-stream-3.6.2.tgz 0ms (cache hit)
+497 http cache @types/node@https://registry.npmjs.org/@types/node/-/node-10.17.60.tgz 0ms (cache hit)
+498 http cache protobufjs@https://registry.npmjs.org/protobufjs/-/protobufjs-6.8.8.tgz 0ms (cache hit)
+499 http cache real-require@https://registry.npmjs.org/real-require/-/real-require-0.1.0.tgz 0ms (cache hit)
+500 http cache on-exit-leak-free@https://registry.npmjs.org/on-exit-leak-free/-/on-exit-leak-free-0.2.0.tgz 0ms (cache hit)
+501 http cache thread-stream@https://registry.npmjs.org/thread-stream/-/thread-stream-0.15.2.tgz 0ms (cache hit)
+502 http cache sonic-boom@https://registry.npmjs.org/sonic-boom/-/sonic-boom-2.8.0.tgz 0ms (cache hit)
+503 http cache process-warning@https://registry.npmjs.org/process-warning/-/process-warning-1.0.0.tgz 0ms (cache hit)
+504 http cache pino-std-serializers@https://registry.npmjs.org/pino-std-serializers/-/pino-std-serializers-4.0.0.tgz 0ms (cache hit)
+505 http cache pino-abstract-transport@https://registry.npmjs.org/pino-abstract-transport/-/pino-abstract-transport-0.5.0.tgz 0ms (cache hit)
+506 http cache pino@https://registry.npmjs.org/pino/-/pino-7.11.0.tgz 0ms (cache hit)
+507 silly tarball no local data for @thi.ng/errors@https://registry.npmjs.org/@thi.ng/errors/-/errors-2.6.14.tgz. Extracting by manifest.
+508 silly tarball no local data for @thi.ng/bitstream@https://registry.npmjs.org/@thi.ng/bitstream/-/bitstream-2.4.52.tgz. Extracting by manifest.
+509 silly tarball no local data for promise-coalesce@https://registry.npmjs.org/promise-coalesce/-/promise-coalesce-1.5.0.tgz. Extracting by manifest.
+510 silly tarball no local data for lru-cache@https://registry.npmjs.org/lru-cache/-/lru-cache-10.4.3.tgz. Extracting by manifest.
+511 silly tarball no local data for eventemitter3@https://registry.npmjs.org/eventemitter3/-/eventemitter3-5.0.4.tgz. Extracting by manifest.
+512 silly tarball no local data for libphonenumber-js@https://registry.npmjs.org/libphonenumber-js/-/libphonenumber-js-1.13.3.tgz. Extracting by manifest.
+513 silly tarball no local data for cache-manager@https://registry.npmjs.org/cache-manager/-/cache-manager-5.7.6.tgz. Extracting by manifest.
+514 silly tarball no local data for protobufjs@https://registry.npmjs.org/protobufjs/-/protobufjs-6.11.6.tgz. Extracting by manifest.
+515 silly tarball no local data for @whiskeysockets/baileys@https://registry.npmjs.org/@whiskeysockets/baileys/-/baileys-6.5.0.tgz. Extracting by manifest.
+516 http fetch POST 200 https://registry.npmjs.org/-/npm/v1/security/advisories/bulk 1905ms
+517 silly audit report {
+517 silly audit report   'music-metadata': [
+517 silly audit report     {
+517 silly audit report       id: 1114969,
+517 silly audit report       url: 'https://github.com/advisories/GHSA-v6c2-xwv6-8xf7',
+517 silly audit report       title: 'music-metadata has an infinite loop vulnerability in ASF parser',
+517 silly audit report       severity: 'high',
+517 silly audit report       vulnerable_versions: '<=11.12.1',
+517 silly audit report       cwe: [Array],
+517 silly audit report       cvss: [Object]
+517 silly audit report     }
+517 silly audit report   ],
+517 silly audit report   protobufjs: [
+517 silly audit report     {
+517 silly audit report       id: 1118641,
+517 silly audit report       url: 'https://github.com/advisories/GHSA-66ff-xgx4-vchm',
+517 silly audit report       title: 'protobuf.js: Code injection through bytes field defaults in generated toObject code',
+517 silly audit report       severity: 'high',
+517 silly audit report       vulnerable_versions: '<=7.5.5',
+517 silly audit report       cwe: [Array],
+517 silly audit report       cvss: [Object]
+517 silly audit report     },
+517 silly audit report     {
+517 silly audit report       id: 1118924,
+517 silly audit report       url: 'https://github.com/advisories/GHSA-2pr8-phx7-x9h3',
+517 silly audit report       title: 'protobuf.js: Denial of service from crafted field names in generated code',
+517 silly audit report       severity: 'moderate',
+517 silly audit report       vulnerable_versions: '<=7.5.5',
+517 silly audit report       cwe: [Array],
+517 silly audit report       cvss: [Object]
+517 silly audit report     },
+517 silly audit report     {
+517 silly audit report       id: 1118926,
+517 silly audit report       url: 'https://github.com/advisories/GHSA-fx83-v9x8-x52w',
+517 silly audit report       title: 'protobuf.js: Prototype injection in generated message constructors',
+517 silly audit report       severity: 'moderate',
+517 silly audit report       vulnerable_versions: '<=7.5.5',
+517 silly audit report       cwe: [Array],
+517 silly audit report       cvss: [Object]
+517 silly audit report     },
+517 silly audit report     {
+517 silly audit report       id: 1118928,
+517 silly audit report       url: 'https://github.com/advisories/GHSA-75px-5xx7-5xc7',
+517 silly audit report       title: 'protobuf.js: Code generation gadget after prototype pollution',
+517 silly audit report       severity: 'high',
+517 silly audit report       vulnerable_versions: '<=7.5.5',
+517 silly audit report       cwe: [Array],
+517 silly audit report       cvss: [Object]
+517 silly audit report     },
+517 silly audit report     {
+517 silly audit report       id: 1118930,
+517 silly audit report       url: 'https://github.com/advisories/GHSA-jvwf-75h9-cwgg',
+517 silly audit report       title: 'protobuf.js: Process-wide denial of service through unsafe option paths',
+517 silly audit report       severity: 'high',
+517 silly audit report       vulnerable_versions: '<=7.5.5',
+517 silly audit report       cwe: [Array],
+517 silly audit report       cvss: [Object]
+517 silly audit report     },
+517 silly audit report     {
+517 silly audit report       id: 1118932,
+517 silly audit report       url: 'https://github.com/advisories/GHSA-685m-2w69-288q',
+517 silly audit report       title: 'protobuf.js: Denial of service through unbounded protobuf recursion',
+517 silly audit report       severity: 'high',
+517 silly audit report       vulnerable_versions: '<=7.5.5',
+517 silly audit report       cwe: [Array],
+517 silly audit report       cvss: [Object]
+517 silly audit report     },
+517 silly audit report     {
+517 silly audit report       id: 1118935,
+517 silly audit report       url: 'https://github.com/advisories/GHSA-q6x5-8v7m-xcrf',
+517 silly audit report       title: 'protobufjs has overlong UTF-8 decoding',
+517 silly audit report       severity: 'moderate',
+517 silly audit report       vulnerable_versions: '<=7.5.5',
+517 silly audit report       cwe: [Array],
+517 silly audit report       cvss: [Object]
+517 silly audit report     },
+517 silly audit report     {
+517 silly audit report       id: 1119378,
+517 silly audit report       url: 'https://github.com/advisories/GHSA-jggg-4jg4-v7c6',
+517 silly audit report       title: 'protobufjs: Denial of Service via unbounded recursive JSON descriptor expansion',
+517 silly audit report       severity: 'moderate',
+517 silly audit report       vulnerable_versions: '<=7.5.7',
+517 silly audit report       cwe: [Array],
+517 silly audit report       cvss: [Object]
+517 silly audit report     },
+517 silly audit report     {
+517 silly audit report       id: 1117571,
+517 silly audit report       url: 'https://github.com/advisories/GHSA-xq3m-2v4x-88gg',
+517 silly audit report       title: 'Arbitrary code execution in protobufjs',
+517 silly audit report       severity: 'critical',
+517 silly audit report       vulnerable_versions: '<7.5.5',
+517 silly audit report       cwe: [Array],
+517 silly audit report       cvss: [Object]
+517 silly audit report     }
+517 silly audit report   ],
+517 silly audit report   uuid: [
+517 silly audit report     {
+517 silly audit report       id: 1119441,
+517 silly audit report       url: 'https://github.com/advisories/GHSA-w5hq-g745-h8pq',
+517 silly audit report       title: 'uuid: Missing buffer bounds check in v3/v5/v6 when buf is provided',
+517 silly audit report       severity: 'moderate',
+517 silly audit report       vulnerable_versions: '<11.1.1',
+517 silly audit report       cwe: [Array],
+517 silly audit report       cvss: [Object]
+517 silly audit report     }
+517 silly audit report   ],
+517 silly audit report   'file-type': [
+517 silly audit report     {
+517 silly audit report       id: 1114301,
+517 silly audit report       url: 'https://github.com/advisories/GHSA-5v7r-6r5c-r473',
+517 silly audit report       title: 'file-type affected by infinite loop in ASF parser on malformed input with zero-size sub-header',
+517 silly audit report       severity: 'moderate',
+517 silly audit report       vulnerable_versions: '>=13.0.0 <21.3.1',
+517 silly audit report       cwe: [Array],
+517 silly audit report       cvss: [Object]
+517 silly audit report     }
+517 silly audit report   ]
+517 silly audit report }
+518 silly packumentCache corgi:https://registry.npmjs.org/music-metadata cache-miss
+519 silly packumentCache corgi:https://registry.npmjs.org/protobufjs cache-miss
+520 silly packumentCache corgi:https://registry.npmjs.org/uuid cache-miss
+521 silly packumentCache corgi:https://registry.npmjs.org/file-type cache-miss
+522 http fetch GET 200 https://registry.npmjs.org/promise-coalesce/-/promise-coalesce-1.5.0.tgz 2364ms (cache miss)
+523 http fetch GET 200 https://registry.npmjs.org/@thi.ng/bitstream/-/bitstream-2.4.52.tgz 2417ms (cache miss)
+524 http fetch GET 200 https://registry.npmjs.org/uuid 899ms (cache revalidated)
+525 silly packumentCache corgi:https://registry.npmjs.org/uuid set size:81812 disposed:false
+526 http fetch GET 200 https://registry.npmjs.org/eventemitter3/-/eventemitter3-5.0.4.tgz 2477ms (cache miss)
+527 http fetch GET 200 https://registry.npmjs.org/@thi.ng/errors/-/errors-2.6.14.tgz 2513ms (cache miss)
+528 http fetch GET 200 https://registry.npmjs.org/music-metadata 1073ms (cache revalidated)
+529 silly packumentCache corgi:https://registry.npmjs.org/music-metadata set size:541099 disposed:false
+530 http fetch GET 200 https://registry.npmjs.org/file-type 1138ms (cache revalidated)
+531 silly packumentCache corgi:https://registry.npmjs.org/file-type set size:198411 disposed:false
+532 http fetch GET 200 https://registry.npmjs.org/protobufjs 1352ms (cache updated)
+533 silly packumentCache corgi:https://registry.npmjs.org/protobufjs set size:undefined disposed:false
+534 http fetch GET 200 https://codeload.github.com/adiwajshing/libsignal-node/tar.gz/11dbd962ea108187c79a7c46fe4d6f790e23da97 1520ms (cache revalidated)
+535 http fetch GET 200 https://registry.npmjs.org/cache-manager/-/cache-manager-5.7.6.tgz 3155ms (cache miss)
+536 silly packumentCache corgi:https://registry.npmjs.org/@whiskeysockets%2fbaileys cache-miss
+537 silly packumentCache heap:1071644672 maxSize:267911168 maxEntrySize:133955584
+538 http fetch GET 200 https://registry.npmjs.org/lru-cache/-/lru-cache-10.4.3.tgz 3779ms (cache miss)
+539 http fetch GET 200 https://registry.npmjs.org/@whiskeysockets%2fbaileys 1002ms (cache revalidated)
+540 silly packumentCache corgi:https://registry.npmjs.org/@whiskeysockets%2fbaileys set size:102222 disposed:false
+541 silly packumentCache corgi:https://registry.npmjs.org/libsignal cache-miss
+542 warn deprecated uuid@9.0.1: uuid@10 and below is no longer supported.  For ESM codebases, update to uuid@latest.  For CommonJS codebases, use uuid@11 (but be aware this version will likely be deprecated in 2028).
+543 http fetch GET 200 https://registry.npmjs.org/libsignal 695ms (cache revalidated)
+544 silly packumentCache corgi:https://registry.npmjs.org/libsignal set size:11288 disposed:false
+545 http fetch GET 200 https://registry.npmjs.org/@whiskeysockets/baileys/-/baileys-6.5.0.tgz 9287ms (cache miss)
+546 warn deprecated @whiskeysockets/baileys@6.5.0: This version is affected by a zero-day vulnerability that allows spoofing of messages, please update to
+546 warn deprecated   the latest versions (6.7.22^ or 7.0.0-rc12^)! For more information, check out the public advisory at
+546 warn deprecated   https://github.com/WhiskeySockets/Baileys/security/advisories/GHSA-qvv5-jq5g-4cgg
+547 http fetch GET 200 https://registry.npmjs.org/libphonenumber-js/-/libphonenumber-js-1.13.3.tgz 11658ms (cache miss)
+548 http fetch GET 200 https://registry.npmjs.org/protobufjs/-/protobufjs-6.11.6.tgz 19274ms (cache miss)
+549 info run protobufjs@6.11.6 postinstall node_modules/protobufjs node scripts/postinstall
+550 info run protobufjs@6.8.8 postinstall node_modules/libsignal/node_modules/protobufjs node scripts/postinstall
+551 info run protobufjs@6.11.6 postinstall { code: 0, signal: null }
+552 info run protobufjs@6.8.8 postinstall { code: 0, signal: null }
+553 silly ADD node_modules/util-deprecate
+554 silly ADD node_modules/wrappy
+555 silly ADD node_modules/once
+556 silly ADD node_modules/stream-shift
+557 silly ADD node_modules/end-of-stream
+558 silly ADD node_modules/duplexify
+559 silly ADD node_modules/duplexify/node_modules/readable-stream
+560 silly ADD node_modules/peek-readable
+561 silly ADD node_modules/@thi.ng/errors
+562 silly ADD node_modules/@thi.ng/bitstream
+563 silly ADD node_modules/@types/long
+564 silly ADD node_modules/opus-decoder
+565 silly ADD node_modules/@wasm-audio-decoders/opus-ml
+566 silly ADD node_modules/clone
+567 silly ADD node_modules/readable-web-to-node-stream
+568 silly ADD node_modules/promise-coalesce
+569 silly ADD node_modules/lru-cache
+570 silly ADD node_modules/lodash.clonedeep
+571 silly ADD node_modules/eventemitter3
+572 silly ADD node_modules/simple-yenc
+573 silly ADD node_modules/@eshaz/web-worker
+574 silly ADD node_modules/codec-parser
+575 silly ADD node_modules/@wasm-audio-decoders/common
+576 silly ADD node_modules/qoa-format
+577 silly ADD node_modules/ogg-opus-decoder
+578 silly ADD node_modules/node-wav
+579 silly ADD node_modules/mpg123-decoder
+580 silly ADD node_modules/audio-type
+581 silly ADD node_modules/audio-buffer
+582 silly ADD node_modules/@wasm-audio-decoders/ogg-vorbis
+583 silly ADD node_modules/@wasm-audio-decoders/flac
+584 silly ADD node_modules/uuid
+585 silly ADD node_modules/node-cache
+586 silly ADD node_modules/libphonenumber-js
+587 silly ADD node_modules/futoin-hkdf
+588 silly ADD node_modules/cache-manager
+589 silly ADD node_modules/audio-decode
+590 silly ADD node_modules/@adiwajshing/keyed-db
+591 silly REMOVE node_modules/win-guid
+592 silly REMOVE node_modules/uint8array-extras
+593 silly REMOVE node_modules/tslib
+594 silly CHANGE node_modules/token-types
+595 silly CHANGE node_modules/strtok3
+596 silly REMOVE node_modules/sharp
+597 silly REMOVE node_modules/semver
+598 silly REMOVE node_modules/qified
+599 silly REMOVE node_modules/qified/node_modules/hookified
+600 silly CHANGE node_modules/protobufjs
+601 silly CHANGE node_modules/music-metadata
+602 silly CHANGE node_modules/long
+603 silly CHANGE node_modules/libsignal
+604 silly ADD node_modules/libsignal/node_modules/@types/node
+605 silly ADD node_modules/libsignal/node_modules/protobufjs
+606 silly REMOVE node_modules/keyv
+607 silly REMOVE node_modules/hookified
+608 silly REMOVE node_modules/hashery
+609 silly CHANGE node_modules/file-type
+610 silly REMOVE node_modules/detect-libc
+611 silly REMOVE node_modules/cacheable
+612 silly REMOVE node_modules/async-mutex
+613 silly CHANGE node_modules/@whiskeysockets/baileys
+614 silly ADD node_modules/@whiskeysockets/baileys/node_modules/real-require
+615 silly ADD node_modules/@whiskeysockets/baileys/node_modules/on-exit-leak-free
+616 silly CHANGE node_modules/@whiskeysockets/baileys/node_modules/thread-stream
+617 silly CHANGE node_modules/@whiskeysockets/baileys/node_modules/sonic-boom
+618 silly CHANGE node_modules/@whiskeysockets/baileys/node_modules/process-warning
+619 silly CHANGE node_modules/@whiskeysockets/baileys/node_modules/pino-std-serializers
+620 silly CHANGE node_modules/@whiskeysockets/baileys/node_modules/pino-abstract-transport
+621 silly CHANGE node_modules/@whiskeysockets/baileys/node_modules/pino
+622 silly REMOVE node_modules/@tokenizer/inflate
+623 silly REMOVE node_modules/@tokenizer/inflate/node_modules/ms
+624 silly REMOVE node_modules/@tokenizer/inflate/node_modules/debug
+625 silly REMOVE node_modules/@pinojs/redact
+626 silly REMOVE node_modules/@keyv/serialize
+627 silly REMOVE node_modules/@keyv/bigmap
+628 silly REMOVE node_modules/@img/colour
+629 silly REMOVE node_modules/@cacheable/utils
+630 silly REMOVE node_modules/@cacheable/node-cache
+631 silly REMOVE node_modules/@cacheable/memory
+632 silly REMOVE node_modules/@borewit/text-codec
+633 verbose cwd /data/data/com.termux/files/home/xavibot
+634 verbose os Linux 4.19.111-27127798
+635 verbose node v26.1.0
+636 verbose npm  v11.15.0
+637 verbose exit 0
+638 info ok
