@@ -20,10 +20,6 @@ const logger = pino({ level: 'silent' });
 let sock = null;
 let isConnected = false;
 
-<<<<<<< HEAD
-// HTTP server for /send (broadcast)
-=======
->>>>>>> 49b28ac (URL button support for Pay Now)
 const app = express();
 app.use(express.json());
 
@@ -74,8 +70,6 @@ async function sendWhatsAppMessage(jid, text) {
 async function sendListMessage(jid, text, buttons) {
   if (!sock || !isConnected) return;
   try {
-<<<<<<< HEAD
-=======
     // Check if any button has a URL — send as template with URL button
     const urlBtn = buttons.find(b => b.url);
     const normalBtns = buttons.filter(b => !b.url);
@@ -108,7 +102,6 @@ async function sendListMessage(jid, text, buttons) {
     }
 
     // Normal buttons (≤3) or list (>3)
->>>>>>> 49b28ac (URL button support for Pay Now)
     if (buttons.length <= 3) {
       const waButtons = buttons.map((b, i) => ({
         buttonId: b.id || String(i + 1),
@@ -131,9 +124,6 @@ async function sendListMessage(jid, text, buttons) {
     }
   } catch (err) {
     console.error('❌ List error, falling back:', err.message);
-<<<<<<< HEAD
-    await sendWhatsAppMessage(jid, text);
-=======
     // Fallback: send URL as plain text
     const urlBtn = buttons.find(b => b.url);
     if (urlBtn) {
@@ -141,7 +131,6 @@ async function sendListMessage(jid, text, buttons) {
     } else {
       await sendWhatsAppMessage(jid, text);
     }
->>>>>>> 49b28ac (URL button support for Pay Now)
   }
 }
 
@@ -169,17 +158,9 @@ async function sendFile(jid, filePath, caption = '') {
 async function processReply(jid, replyData) {
   if (!replyData) return;
 
-<<<<<<< HEAD
-  // New format: object with reply, buttons, banner, file_path
   if (typeof replyData === 'object' && replyData.reply) {
     const { reply, buttons, banner, file_path } = replyData;
 
-    // Send banner image first if present
-=======
-  if (typeof replyData === 'object' && replyData.reply) {
-    const { reply, buttons, banner, file_path } = replyData;
-
->>>>>>> 49b28ac (URL button support for Pay Now)
     if (banner) {
       try {
         const response = await axios.get(banner, { responseType: 'arraybuffer' });
@@ -191,20 +172,12 @@ async function processReply(jid, replyData) {
       }
     }
 
-<<<<<<< HEAD
-    // Send text with list/buttons or plain
-=======
->>>>>>> 49b28ac (URL button support for Pay Now)
     if (buttons && buttons.length > 0) {
       await sendListMessage(jid, reply, buttons);
     } else {
       await sendWhatsAppMessage(jid, reply);
     }
 
-<<<<<<< HEAD
-    // Send file after text if present
-=======
->>>>>>> 49b28ac (URL button support for Pay Now)
     if (file_path) {
       await new Promise(r => setTimeout(r, 500));
       await sendFile(jid, file_path, '');
@@ -212,10 +185,6 @@ async function processReply(jid, replyData) {
     return;
   }
 
-<<<<<<< HEAD
-  // Old string format fallback
-=======
->>>>>>> 49b28ac (URL button support for Pay Now)
   const text = String(replyData);
   const bannerMatch = text.match(/^BANNER:(.+?)\n/);
   const fileMatch = text.match(/📎 FILE:(.+?)(\n|$)/);
@@ -298,10 +267,7 @@ async function connectToWhatsApp() {
         msg.message?.extendedTextMessage?.text ||
         msg.message?.buttonsResponseMessage?.selectedButtonId ||
         msg.message?.listResponseMessage?.singleSelectReply?.selectedRowId ||
-<<<<<<< HEAD
-=======
         msg.message?.templateButtonReplyMessage?.selectedId ||
->>>>>>> 49b28ac (URL button support for Pay Now)
         msg.message?.interactiveResponseMessage?.nativeFlowResponseMessage?.paramsJson ||
         ''
       ).trim();
